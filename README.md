@@ -29,7 +29,7 @@ Mi proyecto buscar aumentar el alcance y accesibilidad a un centro de nutrición
  <img width="947" height="513" alt="image" src="https://github.com/user-attachments/assets/8b4f3839-2885-4e26-b2f4-8e3395237819" />
  
  # Diagrama Relacional
- <img width="4512" height="1821" alt="erdplus(1)" src="https://github.com/user-attachments/assets/17eee02a-5812-4c71-abf9-557a4d08a7d5" />
+ <img width="4512" height="1821" alt="erdplus(2)" src="https://github.com/user-attachments/assets/085cb347-e7ec-4c40-90bf-872b11c30c58" />
 
 
 
