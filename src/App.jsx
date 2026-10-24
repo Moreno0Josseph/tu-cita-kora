@@ -6,7 +6,7 @@ import Citas from "./pages/Citas";
 import Pacientes from "./pages/Pacientes";
 import Dashboard from "./pages/Dashboard";
 import InformeCore from "./pages/InformeCore";
-
+import HistorialClinico from "./pages/HistorialClinico";
 import "./styles/global.css";
 
 function App() {
@@ -18,6 +18,7 @@ function App() {
     pacientes: <Pacientes />,
     dashboard: <Dashboard />,
     informes: <InformeCore />,
+    historial: <HistorialClinico />,
   };
 
   return (

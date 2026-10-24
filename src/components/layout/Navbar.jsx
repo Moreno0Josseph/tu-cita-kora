@@ -5,6 +5,7 @@ const menuItems = [
   { id: "pacientes", label: "Pacientes" },
   { id: "dashboard", label: "Dashboard" },
   { id: "informes", label: "Informe CORE" },
+  { id: "historial", label: "Historial clínico" },
 ];
 
 export default function Navbar({ currentPage, onNavigate }) {
