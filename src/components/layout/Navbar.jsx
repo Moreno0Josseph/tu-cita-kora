@@ -1,0 +1,33 @@
+
+const menuItems = [
+  { id: "inicio", label: "Inicio" },
+  { id: "citas", label: "Citas" },
+  { id: "pacientes", label: "Pacientes" },
+  { id: "dashboard", label: "Dashboard" },
+  { id: "informes", label: "Informe CORE" },
+];
+
+export default function Navbar({ currentPage, onNavigate }) {
+  return (
+    <header className="navbar">
+      <button
+        className="logo"
+        onClick={() => onNavigate("inicio")}
+      >
+        <img id="logo" src="../src/img/logo.png" alt="Logo de KORA" />
+      </button>
+
+      <nav aria-label="Navegación principal">
+        {menuItems.map((item) => (
+          <button
+            key={item.id}
+            className={currentPage === item.id ? "active" : ""}
+            onClick={() => onNavigate(item.id)}
+          >
+            {item.label}
+          </button>
+        ))}
+      </nav>
+    </header>
+  );
+}
