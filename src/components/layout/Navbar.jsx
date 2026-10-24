@@ -10,13 +10,9 @@ const menuItems = [
 export default function Navbar({ currentPage, onNavigate }) {
   return (
     <header className="navbar">
-      <button
-        className="logo"
-        onClick={() => onNavigate("inicio")}
-      >
+      
         <img id="logo" src="../src/img/logo.png" alt="Logo de KORA" />
-      </button>
-
+    
       <nav aria-label="Navegación principal">
         {menuItems.map((item) => (
           <button
